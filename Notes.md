@@ -9,3 +9,6 @@
 2. ssh权限开放只需要在【系统-管理权-SSH访问】中设置，不需要在防火墙另做开放22端口的操作。具体设置参数：接口-未指定，端口-22
 3. ssr-plus配合passwall的黑白名单更流畅一点（实测ssrplus默认设置有些翻墙手游反而卡了）。
 4. Passwall碰到了游戏模式（大陆白名单模式）不生效的问题，目前没有解决。
+
+## 自用资料库
+* https://github.com/yunjies/openwrt-packages forked from kenzok8, 删去了一些和lean资料包中冲突的几个插件，添加了腾讯云ddns的插件
